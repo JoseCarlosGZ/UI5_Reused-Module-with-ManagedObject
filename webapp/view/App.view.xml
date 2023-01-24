@@ -1,0 +1,12 @@
+<mvc:View controllerName="josecarlosgz.ManagedObject.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <App id="app">
+        <pages>
+            <Page id="page" title="{i18n>title}">
+                <content>
+                    <Button text="{i18n>BtnReuse}" press="onPress_AppController" class="sapUiMediumMargin" />
+                    <Input id="miInput" width="50%" class="sapUiMediumMargin" showClearIcon="true" />
+                </content>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
